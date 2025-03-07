@@ -1,46 +1,40 @@
-# data-dashboard
-[ AI - portfolio ] 데이터 대시보드 프로젝트
-
 # Data Dashboard Project
 
 ## Overview
-This project is part of my AI portfolio and demonstrates my ability to create a web-based data visualization dashboard. The dashboard integrates data analysis, visualization, and web development skills.
+This project creates a web-based data visualization dashboard using Python and FastAPI.
 
 ## Features
-1. **Data Collection**:
-   - Web scraping using BeautifulSoup and Selenium.
-   - Public datasets from sources like Seoul Open Data Portal.
-2. **Data Analysis**:
-   - Data preprocessing and analysis using Pandas and Numpy.
-   - Visualization using Matplotlib and Seaborn.
-3. **Web Development**:
-   - Backend API development using FastAPI.
-   - Frontend integration using HTML, CSS, and JavaScript.
+1. Data collection using web scraping or public datasets.
+2. Data analysis and visualization using Pandas and Matplotlib.
+3. Real-time data updates on the dashboard.
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/LeeKyungOk/data-dashboard.git
-cd data-dashboard
-
+   ```bash
+   git clone https://github.com/LeeKyungOk/data-dashboard.git
+   cd data-dashboard
+   ```
 2. Install dependencies:
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## How to Run the Project
+## How to Run the Code
 1. Start the backend server:
-uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
-
-text
-2. Open the `frontend/index.html` file in your browser to view the dashboard.
+   ```bash
+   uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
+   ```
+2. Open the `frontend/index.html` file in your browser.
 
 ## Folder Structure
-📁 data-dashboard/
-├── 📁 data/ # Data files (e.g., public datasets or scraped data)
-├── 📁 src/ # Backend API code (FastAPI)
-├── 📁 frontend/ # Frontend code (HTML/CSS/JavaScript)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-text
+```
+data-dashboard/
+├── data/                # Data files (e.g., public datasets or scraped data)
+├── src/                 # Backend API code (FastAPI)
+├── frontend/            # Frontend code (HTML/CSS/JavaScript)
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
+```
 
 ## Future Improvements
 1. Add user authentication for personalized dashboards.
@@ -48,4 +42,4 @@ text
 3. Expand visualization options with interactive libraries like Plotly or Dash.
 
 ## Contact
-For more information, please contact me at [sunnynhoya@google.com]
+For more information, please contact me at [ @gmail.com]
